@@ -1,3 +1,12 @@
-.all {
-	background:pink; /*changed1 to pink*/
+body {
+	background:#cccccc; /*changed1 to pink*/
+}
+
+.wrapper {
+	max-width: 980px;
+	margin:auto;
+}
+
+img {
+	width: 100%;
 }
