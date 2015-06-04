@@ -2,7 +2,7 @@ body {
 	background:#cccccc; /*changed1 to pink*/
 }
 
-.wrapper {
+.wrapper, .footer {
 	max-width: 980px;
 	margin:auto;
 }
