@@ -1,10 +1,12 @@
 body {
-	background:#cccccc; /*changed1 to pink*/
+	background:#f3f3f3;
 }
 
-.wrapper, .footer {
+.wrapper, footer {
 	max-width: 980px;
-	margin:auto;
+	background: white;
+	margin: 10px auto;
+	padding: 20px;
 }
 
 img {
