@@ -6,12 +6,17 @@ $(document).ready(function($){
 	console.log (winHeight);
 	console.log (winWidth);
 
-	$('button').hover(
+	$('button').hover( //this game is not very smooth, needs work David.
 		function () {
-			$this = $(this);
-			$this.css('position', 'absolute');
-			$this.css('top', winHeight * Math.random());
-			$this.css('left', winWidth * Math.random());
+			var $this = $(this);
+			var roll = Math.random();
+			if(roll > 0.5){
+				$this.css('top', winHeight * Math.random());
+				console.log('higher!');
+			} else {
+				$this.css('left', winWidth * Math.random());
+				console.log('lower!');
+			}
 		}
 	)
 
