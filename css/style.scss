@@ -1,0 +1,29 @@
+body {
+	background:#f3f3f3;
+
+	.wrapper, footer {
+		max-width: 980px;
+		background: white;
+		margin: 10px auto;
+		padding: 20px;
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+
+		button {
+			padding: 15px;
+			border: none;
+			background: blue;
+			color:white;
+			font-weight: bold;
+			border-radius: 4px;
+			margin: 10px;
+			position: absolute;
+			top: 50px;
+			left: 50%;
+			z-index: 999;
+		}
+	}
+}
