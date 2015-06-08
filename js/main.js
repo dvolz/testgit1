@@ -6,9 +6,15 @@ $(document).ready(function($){
 	$('button').hover( //this game is not very smooth, needs work David.
 		function () {
 			var $this = $(this);
-			var roll = Math.random();
-			$this.css('top', winHeight * roll);
-			//$this.css('left', winWidth * roll);
+			var roll = (Math.random() - 0.1);
+			var newHeight = winHeight * roll;
+			var newWidth = winWidth * roll;
+			$this.css({
+				'top': newHeight,
+				'left': newWidth
+					});
+			console.log(newHeight);
+			console.log(newWidth);
 		}
 	);
 
